@@ -1,0 +1,15 @@
+D:\Source Code\radiusstepcalculator\Radius Step Calculator\bin\Release\Radius Step Calculator.exe.config
+D:\Source Code\radiusstepcalculator\Radius Step Calculator\bin\Release\Radius Step Calculator.exe.manifest
+D:\Source Code\radiusstepcalculator\Radius Step Calculator\bin\Release\Radius Step Calculator.application
+D:\Source Code\radiusstepcalculator\Radius Step Calculator\bin\Release\Radius Step Calculator.exe
+D:\Source Code\radiusstepcalculator\Radius Step Calculator\bin\Release\Radius Step Calculator.pdb
+D:\Source Code\radiusstepcalculator\Radius Step Calculator\obj\Release\Radius Step Calculator.csproj.AssemblyReference.cache
+D:\Source Code\radiusstepcalculator\Radius Step Calculator\obj\Release\Radius Step Calculator.csproj.SuggestedBindingRedirects.cache
+D:\Source Code\radiusstepcalculator\Radius Step Calculator\obj\Release\Radius_Step_Calculator.frmRadiusStepCalculator.resources
+D:\Source Code\radiusstepcalculator\Radius Step Calculator\obj\Release\Radius_Step_Calculator.Properties.Resources.resources
+D:\Source Code\radiusstepcalculator\Radius Step Calculator\obj\Release\Radius Step Calculator.csproj.GenerateResource.cache
+D:\Source Code\radiusstepcalculator\Radius Step Calculator\obj\Release\Radius Step Calculator.csproj.CoreCompileInputs.cache
+D:\Source Code\radiusstepcalculator\Radius Step Calculator\obj\Release\Radius Step Calculator.exe.manifest
+D:\Source Code\radiusstepcalculator\Radius Step Calculator\obj\Release\Radius Step Calculator.application
+D:\Source Code\radiusstepcalculator\Radius Step Calculator\obj\Release\Radius Step Calculator.exe
+D:\Source Code\radiusstepcalculator\Radius Step Calculator\obj\Release\Radius Step Calculator.pdb
