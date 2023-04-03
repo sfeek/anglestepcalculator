@@ -175,7 +175,7 @@ namespace Angle_Step_Calculator
                     else
                         text.Append("# " + System.Convert.ToString(step + 1) + @"\tab X = " + String.Format(nfmt, x - lastx) + @"\tab\b Y = " + String.Format(nfmt, y - lasty) + @"\b0");
 
-                text.Append(@"\line");
+                text.Append(@"\line\line");
 
                 lastx = x;
                 lasty = y;
@@ -198,7 +198,7 @@ namespace Angle_Step_Calculator
                         text.Append("# " + System.Convert.ToString(step + 1) + @"\tab X = " + String.Format(nfmt, x - lastx) + @"\tab\b Y = " + String.Format(nfmt, y - lasty) + @"\b0");
 
 
-                text.Append(@"\line");
+                text.Append(@"\line\line");
             }
 
 
