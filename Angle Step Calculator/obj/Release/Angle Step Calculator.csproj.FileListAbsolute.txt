@@ -1,0 +1,15 @@
+C:\Source Code\anglestepcalculator\Angle Step Calculator\bin\Release\Angle Step Calculator.exe.config
+C:\Source Code\anglestepcalculator\Angle Step Calculator\bin\Release\Angle Step Calculator.exe.manifest
+C:\Source Code\anglestepcalculator\Angle Step Calculator\bin\Release\Angle Step Calculator.application
+C:\Source Code\anglestepcalculator\Angle Step Calculator\bin\Release\Angle Step Calculator.exe
+C:\Source Code\anglestepcalculator\Angle Step Calculator\bin\Release\Angle Step Calculator.pdb
+C:\Source Code\anglestepcalculator\Angle Step Calculator\obj\Release\Angle Step Calculator.csproj.AssemblyReference.cache
+C:\Source Code\anglestepcalculator\Angle Step Calculator\obj\Release\Angle Step Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Source Code\anglestepcalculator\Angle Step Calculator\obj\Release\Angle_Step_Calculator.frmAngleStepCalculator.resources
+C:\Source Code\anglestepcalculator\Angle Step Calculator\obj\Release\Angle_Step_Calculator.Properties.Resources.resources
+C:\Source Code\anglestepcalculator\Angle Step Calculator\obj\Release\Angle Step Calculator.csproj.GenerateResource.cache
+C:\Source Code\anglestepcalculator\Angle Step Calculator\obj\Release\Angle Step Calculator.csproj.CoreCompileInputs.cache
+C:\Source Code\anglestepcalculator\Angle Step Calculator\obj\Release\Angle Step Calculator.exe.manifest
+C:\Source Code\anglestepcalculator\Angle Step Calculator\obj\Release\Angle Step Calculator.application
+C:\Source Code\anglestepcalculator\Angle Step Calculator\obj\Release\Angle Step Calculator.exe
+C:\Source Code\anglestepcalculator\Angle Step Calculator\obj\Release\Angle Step Calculator.pdb
