@@ -16,7 +16,7 @@ namespace Angle_Step_Calculator
         {
             InitializeComponent();
             rbConventional.Checked = true;
-            txtOutput.SelectionTabs = new int[] { 150 };
+            txtOutput.SelectionTabs = new int[] { 100 };
         }
 
         private void btnCalculate_Click(object sender, EventArgs e)
