@@ -33,7 +33,6 @@ namespace Angle_Step_Calculator
             int step;
             int selectxy = 0;
             double leftover;
-            double qangle;
             double radians;
             double x;
             double y;
@@ -47,9 +46,8 @@ namespace Angle_Step_Calculator
 
             try
             {
-                qangle = Convert.ToDouble(txtAngle.Text) % 360;
-                if (qangle < 0) qangle = 360.0 + qangle;
-                angle = (-qangle + 90.0) % 360.0;
+                angle = Convert.ToDouble(txtAngle.Text) % 360.0;
+
                
                 toolradius = Convert.ToDouble(txtToolRadius.Text);
                 if (toolradius < 0.0)
@@ -105,7 +103,7 @@ namespace Angle_Step_Calculator
             x = 0;
             y = 0;
 
-            radians = Math.PI / 180.0 * angle;
+            radians = (Math.PI / 180.0) * angle;
 
             if (chkReverse.Checked == false)
             {
@@ -116,34 +114,34 @@ namespace Angle_Step_Calculator
             } 
             else
             {
-                x += centerxoffset + distance * Math.Cos(radians);
-                y += centeryoffset + distance * Math.Sin(radians);
+                x += centerxoffset + distance * Math.Sin(radians);
+                y += centeryoffset + distance * Math.Cos(radians);
                 lastx = x;
                 lasty = y;
 
 
                 angle = (angle + 180.0) % 360.0;
-                radians = Math.PI / 180.0 * angle;
+                radians = (Math.PI / 180.0) * angle;
             }
 
-            if (rbConventional.Checked == true) 
+            if (rbConventional.Checked == true)
             {
-                tangle = (angle - 90.0) % 360.0;
-                tradians = Math.PI / 180.0 * tangle;
+                tangle = (angle + 90.0) % 360.0;
+                tradians = (Math.PI / 180.0) * tangle;
 
-                x += toolradius * Math.Cos(tradians);
-                y += toolradius * Math.Sin(tradians);
+                x += toolradius * Math.Sin(tradians);
+                y += toolradius * Math.Cos(tradians);
                 lastx = x;
                 lasty = y;
             }
 
             if (rbClimb.Checked == true)
             {
-                tangle = (angle + 90.0) % 360.0;
+                tangle = (angle - 90.0) % 360.0;
                 tradians = Math.PI / 180.0 * tangle;
 
-                x += toolradius * Math.Cos(tradians);
-                y += toolradius * Math.Sin(tradians);
+                x += toolradius * Math.Sin(tradians);
+                y += toolradius * Math.Cos(tradians);
                 lastx = x;
                 lasty = y;
             }
@@ -151,18 +149,18 @@ namespace Angle_Step_Calculator
             text.Append(@"\b Start X = " + String.Format(nfmt, x) + @"\tab Start Y = " + String.Format(nfmt, y) + @"\b0 ");
             text.Append(@"\line \line ");
 
-            if (qangle > 0 && qangle <= 90) selectxy = 0;
-            if (qangle > 90 && qangle <= 180) selectxy = 1;
-            if (qangle > 180 && qangle <= 270) selectxy = 0;
-            if (qangle > 270 && qangle <= 360) selectxy = 1;
+            if (angle > 0 && angle <= 90) selectxy = 0;
+            if (angle > 90 && angle <= 180) selectxy = 1;
+            if (angle > 180 && angle <= 270) selectxy = 0;
+            if (angle > 270 && angle <= 360) selectxy = 1;
 
             if (rbClimb.Checked == true) selectxy = 1 - selectxy;
 
 
             for (step=0; step < steps; step++)
             {
-                x += increment * Math.Cos(radians);
-                y += increment * Math.Sin(radians);
+                x += increment * Math.Sin(radians);
+                y += increment * Math.Cos(radians);
 
                 if (selectxy == 0)
                     if (chkInc.Checked == false)
@@ -183,8 +181,8 @@ namespace Angle_Step_Calculator
 
             if (leftover > 0.0)
             {
-                x += leftover * Math.Cos(radians);
-                y += leftover * Math.Sin(radians);
+                x += leftover * Math.Sin(radians);
+                y += leftover * Math.Cos(radians);
 
                 if (selectxy == 0)
                     if (chkInc.Checked == false)
